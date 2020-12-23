@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RingOfStorms/TODO"
+    "url": "https://github.com/RingOfStorms/eslint-config"
   },
   "readmeFilename": "README.md",
   "keywords": [
