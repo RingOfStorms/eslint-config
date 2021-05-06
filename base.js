@@ -14,7 +14,6 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:eslint-comments/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   env: {
     node: true,
@@ -33,5 +32,13 @@ module.exports = {
     ...require('./src/base/rules/new-with-error'),
     ...require('./src/base/rules/prettier'),
     ...require('./src/base/rules/typescript-eslint'),
-  }
+  },
+  overrides: [
+    {
+      files: "prettier.config.js",
+      rules: {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
 };

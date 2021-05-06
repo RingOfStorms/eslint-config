@@ -18,6 +18,6 @@ module.exports = {
     arrow: 'parens-new-line',
     condition: 'parens-new-line',
     logical: 'parens-new-line',
-    prop: 'parens-new-line'
+    prop: 'ignore',
   }],
 };

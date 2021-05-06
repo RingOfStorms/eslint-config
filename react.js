@@ -9,7 +9,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:import/react',
     'plugin:css-modules/recommended',
-    'prettier/react',
+    'prettier',
   ],
   env: {
     browser: true,

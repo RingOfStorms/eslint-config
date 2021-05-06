@@ -19,6 +19,10 @@ npm i @ringofstorms/eslint-config \
     eslint-plugin-import \
     eslint-plugin-new-with-error \
     eslint-plugin-prettier \
+    @typescript-eslint/parser \
+    eslint-config-prettier \
+    eslint-config-react \
+    eslint-import-resolver-typescript \
     prettier \
     --save-dev
 ```
@@ -45,6 +49,10 @@ npm i @ringofstorms/eslint-config \
     eslint-plugin-css-modules \
     eslint-plugin-react \
     eslint-plugin-react-hooks \
+    @typescript-eslint/parser \
+    eslint-config-prettier \
+    eslint-config-react \
+    eslint-import-resolver-typescript \
     --save-dev
 ```
 
@@ -53,6 +61,13 @@ In your .eslintrc
 {
   extends: ["@ringofstorms/eslint-config/react"],
 }
+```
+
+## prettier settings
+
+Create `prettier.config.js` file in root of project with this content:
+```
+module.exports = require('@ringofstorms/eslint-config').prettierConfig;
 ```
 
 # Common rule overrides
@@ -67,3 +82,13 @@ In your .eslintrc
   },
 }
 ```
+
+# Contributing
+
+## Packing
+`npm pack`
+
+## publishing
+if not already done `npm login`
+
+`npm publish --access public`
