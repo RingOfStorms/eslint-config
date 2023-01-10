@@ -1,6 +1,6 @@
 module.exports = {
   react: {
-    pragma: 'React',
-    version: 'detect',
+    pragma: "React",
+    version: "detect",
   },
 };

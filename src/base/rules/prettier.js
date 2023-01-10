@@ -1,5 +1,5 @@
 module.exports = {
   // === DISABLED ===
   // ==== ERRORS ====
-  'prettier/prettier': 'error',
+  "prettier/prettier": "error",
 };

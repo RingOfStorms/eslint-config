@@ -1,8 +1,8 @@
 module.exports = {
-  'import/parsers': {
-    '@typescript-eslint/parser': ['.ts', '.tsx']
+  "import/parsers": {
+    "@typescript-eslint/parser": [".ts", ".tsx"],
   },
-  'import/resolver': {
+  "import/resolver": {
     typescript: {
       alwaysTryTypes: false,
     },

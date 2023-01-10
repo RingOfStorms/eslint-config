@@ -1,12 +1,12 @@
 module.exports = [
   {
-    files: ['**/*.tsx'],
+    files: ["**/*.tsx", "**/*.jsx"],
     rules: {
       // [Plugin] react - disable prop type checks in typescript since we use interfaces
-      'react/prop-types': 'off',
+      "react/prop-types": "off",
 
       // Allow ts-ignore in test files for easily faking data and objects
-      '@typescript-eslint/ban-ts-ignore': 'off',
+      "@typescript-eslint/ban-ts-ignore": "off",
     },
   },
 ];
