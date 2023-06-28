@@ -89,6 +89,17 @@ module.exports = require('@ringofstorms/eslint-config').prettierConfig;
 }
 ```
 
+# Updating package scripts
+
+Add
+```json
+    "test": "npm run lint:fix",
+    "lint": "npm run lint:prettier && npm run lint:eslint",
+    "lint:fix": "npm run lint:prettier -- --write && npm run lint:eslint -- --fix ",
+    "lint:eslint": "eslint './**/*.{js,jsx,ts,tsx}'",
+    "lint:prettier": "prettier . --check"
+```
+
 # Contributing
 
 ## Packing

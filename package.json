@@ -1,6 +1,6 @@
 {
   "name": "@ringofstorms/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Opinionated eslint configuration for node typescript projects",
   "main": "src/index.js",
   "files": [
@@ -33,16 +33,16 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5",
-    "@typescript-eslint/parser": ">=4",
-    "eslint": ">=7",
+    "@typescript-eslint/parser": ">=5",
+    "eslint": ">=8",
     "eslint-config-prettier": ">=8",
     "eslint-config-react": ">= 1",
-    "eslint-import-resolver-typescript": ">= 2",
+    "eslint-import-resolver-typescript": ">=3",
     "eslint-plugin-css-modules": ">= 2",
     "eslint-plugin-eslint-comments": ">= 3",
     "eslint-plugin-filenames": ">=1",
     "eslint-plugin-import": ">= 2",
-    "eslint-plugin-new-with-error": ">=3",
+    "eslint-plugin-new-with-error": ">=4",
     "eslint-plugin-prettier": ">=4",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">=4",

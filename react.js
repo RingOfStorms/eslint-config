@@ -3,18 +3,18 @@ module.exports = {
   extends: [
     "@ringofstorms/eslint-config/base",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:import/react",
     "plugin:css-modules/recommended",
     "prettier",
   ],
   env: {
     browser: true,
-    jasmine: true,
     jest: true,
-    es6: true,
+    node: false,
   },
   globals: {
-    process: true,
+    process: false,
   },
   settings: {
     ...require("./src/react/settings/react"),
